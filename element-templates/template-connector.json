@@ -81,6 +81,20 @@
     },
     "type" : "Text"
   }, {
+    "id" : "searchterm",
+    "label" : "searchTerm",
+    "optional" : false,
+    "constraints" : {
+      "notEmpty" : true
+    },
+    "feel" : "optional",
+    "group" : "compose",
+    "binding" : {
+      "name" : "searchterm",
+      "type" : "zeebe:input"
+    },
+    "type" : "Text"
+  }, {
     "id" : "resultVariable",
     "label" : "Result variable",
     "description" : "Name of variable to store the response in",
